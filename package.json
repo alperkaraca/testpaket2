@@ -1,0 +1,28 @@
+{
+  "name": "alperl",
+  "version": "1.0.0",
+  "description": "bu bir deneme projesidir.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "alper": "echo Ben Alper",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "deneme-paket"
+  ],
+  "author": "Alper Karaca",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.4.20",
+    "nodemailer": "^6.0.0",
+    "simple-is": "^0.2.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alperkaraca/testpaket2.git"
+  }
+}
